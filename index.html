@@ -2,9 +2,12 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="./lib/Css/#">
+    <meta name="viewport" charset="UTF-8"  content="width=device-width, initial-scale=1.0">
+    <title>CV Clement Hugo</title>
+
+    <link rel="stylesheet" href="./lib/Css/styleFooter.css"> <!-- Style pour le footer -->
+
+    <meta name="author" content="Clement Hugo">
 </head>
 
 <body>
@@ -12,20 +15,71 @@
 <main>
     <header>
         <!-- Image/Infos perso  -->
+        <img src="./src/img/#">
+        <h1>CLEMENT HUGO</h1>
+        <p>19.08.2000</p>
+        <p>VEHICULE : PERMIS B</p>
+        <p>0478036934</p>
+        <p>Fayt-Le-Franc, 7387<br>
+        Belgique
+        </p>
+        <a href="#">Linkedin</a>
+        <a href="#">GITHUB</a>
     </header>
 
     <section>
+        <h2>Profile</h2>
+        <div>
+            <p>Actuellement étudiant en informatique, passionné par le
+                développement logiciel et Web. Ma formation académique m'a permis
+                d'acquérir une base solide en langages de programmation tels que
+                Java, C, et Python, ainsi qu'une
+                compréhension approfondie des
+                principes de développement web et
+                de gestion de bases de données. J'ai
+                développé une capacité à apprendre
+                rapidement de nouvelles
+                technologies, démontrée par mes
+                projets personnels et universitaires. Je
+                cherche à appliquer mes
+                compétences dans un
+                environnement professionnel
+                dynamique pour contribuer à des
+                projets innovants tout en continuant à
+                perfectionner mes compétences
+                techniques.</p>
+        </div>
         <!-- Brève déscription du profile -->
     </section>
 
     <section>
         <!-- Section pour les compétances + langues connues -->
-        <h2>Compétences</h2>
+        <h2> Compétences</h2>
         <section>
             <!-- Section pour les compétences -->
+            <h3>Compétences spécialisées</h3>
+            <div>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVASCRIPT</li>
+                    <li>PHP</li>
+                    <li>MYSQL</li>
+                    <li>PYTHON</li>
+                </ul>
+            </div>
         </section>
+
         <section>
             <!-- Section pour les langues -->
+            <h3>Langues</h3>
+            <div>
+                <ul>
+                    <li>FRANCAIS</li>
+                    <li>ANGLAIS</li>
+                    <li>NÉERLANDAIS</li>
+                </ul>
+            </div>
         </section>
     </section>
 
@@ -37,26 +91,36 @@
     </section>
 
     <section>
-        <h2>EXPERIENCE PROFESSiONELLE</h2>
+        <h2>EXPÉRIENCE PROFESSIONELLE</h2>
         <article>
             <!-- Pour chaque experience -->
         </article>
     </section>
 
     <section>
-        <h2>Projets</h2>
+        <h2>PROJETS</h2>
     </section>
 
     <section>
-        <h2>Loisirs</h2>
+        <h2>LOISIRS</h2>
+    </section>
+
+    <section>
+        <button id="dowloadPDF">Telecharger mon CV</button>
     </section>
 
     <footer>
-
+        &copy; 2024 CLEMENT HUGO. Tous droits réservés.
     </footer>
 </main>
 
 <script src="./lib/Js/#"></script>
+<script>
+    document.getElementById('dowloadPDF').addEventListener('click',function (){ //fonctionalité pour telecharger le cv
+        const cv = "./src/cv/CV_ClementHugo_BLOC2_INFORMATIQUE.pdf";
+        window.open(cv,'_blank');
+    });
+</script>
 </body>
 </html>
 

@@ -1,0 +1,13 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #2f2f2f2f;
+    color: #333;
+    border-top: 1px solid #d1d1d1d1;
+
+}
