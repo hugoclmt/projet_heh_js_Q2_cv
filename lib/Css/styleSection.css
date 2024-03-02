@@ -1,0 +1,12 @@
+#profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile p {
+    font-size: 20px;
+    text-align: center;
+    padding: 0 30px;
+}

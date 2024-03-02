@@ -1,0 +1,35 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: coral;
+    width: 100%;
+}
+
+#imgprofil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#imgprofil img{
+    height: 75%;
+    width: 75%;
+    border-radius: 50%;
+}
+
+#nomPrenom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 12%;
+}
+
+#coordonee{
+    display: flex;
+    flex-direction: column;
+}
+
+#coordonee p{
+    font-size: 15px;
+}
