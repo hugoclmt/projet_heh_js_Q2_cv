@@ -1,2 +1,5 @@
-1)Age mis a jour chaque année
-2) telecharger cv
+1) telecharger cv
+2) Glassmorphism
+3) scroll
+4) mode night si dieu veut
+5) animation des barres de progressions
