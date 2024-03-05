@@ -1,5 +1,5 @@
-1) telecharger cv
+1) telecharger cv // ok
 2) Glassmorphism
 3) scroll
-4) mode night si dieu veut
+4) mode night si dieu veut -> https://darkmodejs.learn.uno/
 5) animation des barres de progressions

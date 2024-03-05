@@ -1,0 +1,14 @@
+:root{
+    --color-background: #f0f0f0;
+    --color-text: #333;
+}
+
+.night-mode{
+    --color-background: #333;
+    --color-text: #f0f0f0;
+}
+
+body{
+    background-color: var(--color-background);
+    color: var(--color-text);
+}

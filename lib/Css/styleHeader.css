@@ -2,7 +2,6 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: coral;
     width: 100%;
 }
 
