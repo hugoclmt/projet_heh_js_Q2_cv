@@ -5,6 +5,10 @@
     align-items: center;
 }
 
+#profile h2 {
+    margin-top: 15px;
+    text-decoration: underline;
+}
 #profile p {
     font-size: 20px;
     text-align: center;
@@ -17,8 +21,8 @@
 }
 #competence h2{
     text-align: center;
-    font-size: 42px;
     margin-top: 15px;
+    text-decoration: underline;
 }
 
 #containeurcompetence{
@@ -40,20 +44,25 @@
 }
 
 #competenceSpecialise h3{
-    margin-left: 20%;
+    text-align: center;
 }
 #langue{
     margin-top: 20px;
 }
 
 #langue h3{
-    margin-left: 20%;
+    text-align: center;
 }
 
 #langue div ul{
     display: flex;
+    flex-flow: wrap;
     justify-content: space-evenly;
     align-items: center;
+}
+
+#lnage div ul li{
+    padding: 25px;
 }
 
 #loisirs div{
@@ -64,6 +73,7 @@
 
 #loisirs h2{
     text-align: center;
+    text-decoration: underline;
 }
 
 .imgloisir{
@@ -77,4 +87,26 @@
     justify-content: center;
     align-items: center;
     padding: 25px;
+}
+
+#conteneureducation{
+    display: flex;
+    flex-direction: column;
+}
+
+#conteneureducation h2{
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+
+#conteneurexperience{
+    display: flex;
+    flex-direction: column;
+}
+
+#conteneurexperience h2{
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: underline;
 }
