@@ -15,7 +15,9 @@
 <body>
 
 <main>
-    <div id="toggle" class="toggleclass1 toggleclass2"></div>
+    <div id="toggle" class="toggleclass1 toggleclass2">
+        <img id="modeicon" src="./src/img/nuit.svg">
+    </div>
     <div id="blender"></div>
     <header>
         <!-- Image/Infos perso  -->
@@ -176,23 +178,23 @@
 
     <section id="loisirs">
         <h2>LOISIRS</h2>
-        <div>
-            <div>
+        <div id="conteneurloisirs">
+            <div class="card_glass">
                 <img class="imgloisir" src="./src/img/festival.jpg">
-                <div>
-
+                <div class="content_glass">
+                    <h3 class="titreCard">Festival</h3>
                 </div>
             </div>
-            <div>
+            <div class="card_glass">
                 <img class="imgloisir" src="./src/img/ufc.jpg">
-                <div>
-
+                <div class="content_glass">
+                    <h3 class="titreCard">MMA</h3>
                 </div>
             </div>
-            <div>
+            <div class="card_glass">
                 <img class="imgloisir" src="./src/img/psg.jpg">
-                <div>
-
+                <div class="content_glass">
+                    <h3 class="titreCard">Football</h3>
                 </div>
             </div>
         </div>
@@ -208,12 +210,21 @@
 </main>
 
 <script src="./lib/Js/#"></script>
+<script src="./lib/Js/vanilla-tilt.js"></script>
 <script>
     document.getElementById('dowloadPDF').addEventListener('click',function (){ //fonctionalité pour telecharger le cv
         const cv = "./src/cv/CV_ClementHugo_BLOC2_INFORMATIQUE.pdf";
         window.open(cv,'_blank');
     });
+
+    VanillaTilt.init(document.querySelectorAll(".card_glass"), {
+        max: 25,
+        speed: 400,
+        glare: true,
+        "max-glare": 1,
+    });
 </script>
+
 <script src="./lib/Js/darkMode.js"></script>
 </body>
 </html>
