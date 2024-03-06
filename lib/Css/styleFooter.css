@@ -7,8 +7,6 @@ html,body{
 footer{
     text-align: center;
     padding: 20px;
-    background-color: #2f2f2f2f;
-    color: #333;
-    border-top: 1px solid #d1d1d1d1;
+    border-top: 3px solid black;
 
 }

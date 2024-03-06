@@ -3,6 +3,7 @@ header{
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 100%;
+    border-bottom: 3px solid black;
 }
 
 #imgprofil{
@@ -17,6 +18,7 @@ header{
     height: 75%;
     width: 75%;
     border-radius: 50%;
+    isolation: isolate; /*Pour le mode nuit*/
 }
 
 #nomPrenom{
