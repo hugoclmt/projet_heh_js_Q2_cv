@@ -6,12 +6,12 @@
 }
 
 #profile h2 {
-    margin-top: 15px;
+    margin-top: 5px;
     text-decoration: underline;
 }
 #profile p {
+    margin-top: 0;
     text-align: center;
-    padding: 0 30px;
 }
 
 #competence{
@@ -20,7 +20,7 @@
 }
 #competence h2{
     text-align: center;
-    margin-top: 15px;
+    margin-top: 0;
     text-decoration: underline;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .skillbar{
-    width: 40%;
+    width: 35%;
     height: 20px;
     position: relative;
     background: rgba(17,17,17,.3);
@@ -43,7 +43,7 @@
     z-index: 1;
     float: left;
     margin-top: 1px;
-    margin-left: 10px;
+    margin-left: 5px;
     text-shadow: none;
     color: #fff;
     font-size: 1.2em;
@@ -52,12 +52,11 @@
 .percenttext{
     z-index: 3;
     position: relative;
-    padding-right: 10px;
+    padding-right: 5px;
     color: #fff;
-    margin-top: 1px;
     float: right;
     text-shadow: none;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 #skill-HTML{
@@ -280,7 +279,7 @@
 }
 
 #skill-PYTHON{
-    width: 80%;
+    width: 90%;
     animation: Animate-PYTHON 4s;
     -webkit-animation: Animate-PYTHON 4s;
     -moz-animation: Animate-PYTHON 4s;
@@ -294,7 +293,7 @@
         width: 10px;
     }
     to{
-        width: 80%;
+        width: 90%;
     }
 }
 
@@ -303,7 +302,7 @@
         width: 10px;
     }
     to{
-        width: 80%;
+        width: 90%;
     }
 }
 
@@ -312,7 +311,7 @@
         width: 10px;
     }
     to{
-        width: 80%;
+        width: 90%;
     }
 }
 
@@ -356,10 +355,11 @@
 
 
 #competenceSpecialise h3{
+    margin-top: 0;
     text-align: center;
 }
 #langue{
-    margin-top: 20px;
+    margin-top: 0;
 }
 
 #langue h3{
@@ -390,8 +390,8 @@
     position: relative;
     left: 0;
     width: 250px;
-    height: 200px;
-    margin: 20px;
+    height: 150px;
+    margin: 10px;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
     background: rgba(255, 255, 255, 0.1);
@@ -453,14 +453,21 @@
     flex-direction: column;
     max-height: 110px;
     overflow-y: auto;
-    border: 10px solid black;
+    border: 5px solid black;
     padding: 10px;
 }
 
+article{
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
 
 #conteneureducation h2{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 0;
     text-decoration: underline;
 }
 
@@ -482,6 +489,6 @@
     flex-direction: column;
     max-height: 110px;
     overflow-y: auto;
-    border: 10px solid black;
+    border: 5px solid black;
     padding: 10px;
 }
