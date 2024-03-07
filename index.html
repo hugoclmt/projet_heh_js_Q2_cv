@@ -93,23 +93,53 @@
             <!-- Section pour les compétences -->
             <h3>Compétences spécialisées</h3>
             <div id="containeurcompetence">
-                <div class="containeurenfantcompetence">
-                    <ul>
-                        <li>HTML5</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>PHP</li>
-                        <li>ReactJs</li>
-                    </ul>
+                <div class="skillbar">
+                    <div id="skill-HTML">
+                        <span class="skill-area">HTML</span>
+                        <div class="percenttext">90%</div>
+                    </div>
                 </div>
-                <div class="containeurenfantcompetence">
-                    <ul>
-                        <li>PYTHON</li>
-                        <li>JAVA</li>
-                        <li>C</li>
-                        <li>UML</li>
-                        <li>SQL</li>
-                    </ul>
+                <div class="skillbar">
+                    <div id="skill-CSS">
+                        <span class="skill-area">CSS</span>
+                        <div class="percenttext">75%</div>
+                    </div>
+                </div>
+                <div class="skillbar">
+                    <div id="skill-JS">
+                        <span class="skill-area">JS</span>
+                        <div class="percenttext">65%</div>
+                    </div>
+                </div>
+                <div class="skillbar">
+                    <div id="skill-PHP">
+                        <span class="skill-area">PHP</span>
+                        <div class="percenttext">90%</div>
+                    </div>
+                </div>
+                <div class="skillbar">
+                    <div id="skill-JAVA">
+                        <span class="skill-area">JAVA</span>
+                        <div class="percenttext">70%</div>
+                    </div>
+                </div>
+                <div class="skillbar">
+                    <div id="skill-SQL">
+                        <span class="skill-area">SQL</span>
+                        <div class="percenttext">80%</div>
+                    </div>
+                </div>
+                <div class="skillbar">
+                    <div id="skill-C">
+                        <span class="skill-area">C</span>
+                        <div class="percenttext">75%</div>
+                    </div>
+                </div>
+                <div class="skillbar">
+                    <div id="skill-PYTHON">
+                        <span class="skill-area">PYTHON</span>
+                        <div class="percenttext">80%</div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -129,52 +159,58 @@
 
     <section id="conteneureducation">
         <h2>ÉDUCATION</h2>
-        <article>
-            <!-- Pour chaque formation -->
-            <h3>Bachelier en Informatique & systèmes orientation réseaux & télécommunications</h3>
-            <p>Haute École en Hainaut, Mons</p>
-            <p>Septembre 2022 - Actuel</p>
-        </article>
-        <article>
-            <!-- Pour chaque formation -->
-            <h3>Bachelier en Informatique de Gestion</h3>
-            <p>Concorcet, Mons</p>
-            <p>Septembre 2020 - Juin 2022</p>
-        </article>
-        <article>
-            <!-- Pour chaque formation -->
-            <h3>Bachelier en Kinésithérapie</h3>
-            <p>Concorcet, Tournai</p>
-            <p>Septembre 2019 - Mars 2020</p>
-        </article>
-        <article>
-            <!-- Pour chaque formation -->
-            <h3>C.E.S.S</h3>
-            <p>Athénée Royal, Dour</p>
-            <p>Septembre 2012 - Juin 2019</p>
-        </article>
+        <div id="conteneurenfanteducation">
+            <article>
+                <!-- Pour chaque formation -->
+                <h3>Bachelier en Informatique & systèmes orientation réseaux & télécommunications</h3>
+                <p>Haute École en Hainaut, Mons</p>
+                <p>Septembre 2022 - Actuel</p>
+            </article>
+            <article>
+                <!-- Pour chaque formation -->
+                <h3>Bachelier en Informatique de Gestion</h3>
+                <p>Concorcet, Mons</p>
+                <p>Septembre 2020 - Juin 2022</p>
+            </article>
+            <article>
+                <!-- Pour chaque formation -->
+                <h3>Bachelier en Kinésithérapie</h3>
+                <p>Concorcet, Tournai</p>
+                <p>Septembre 2019 - Mars 2020</p>
+            </article>
+            <article>
+                <!-- Pour chaque formation -->
+                <h3>C.E.S.S</h3>
+                <p>Athénée Royal, Dour</p>
+                <p>Septembre 2012 - Juin 2019</p>
+            </article>
+        </div>
+
     </section>
 
     <section id="conteneurexperience">
         <h2>EXPÉRIENCE PROFESSIONELLE</h2>
-        <article>
-            <!-- Pour chaque experience -->
-            <h3>EuroConditionnement</h3>
-            <p>Juin 2023 - juillet 2023</p>
-            <p>Job étudiant</p>
-        </article>
-        <article>
-            <!-- Pour chaque experience -->
-            <h3>La Saline</h3>
-            <p>Septembre 2021 - Septembre 2022</p>
-            <p>Job étudiant</p>
-        </article>
-        <article>
-            <!-- Pour chaque experience -->
-            <h3>GSK</h3>
-            <p>Juin 2021 - Août 2021</p>
-            <p>Job étudiant</p>
-        </article>
+        <div id="conteneurenfantexprience">
+            <article>
+                <!-- Pour chaque experience -->
+                <h3>EuroConditionnement</h3>
+                <p>Juin 2023 - juillet 2023</p>
+                <p>Job étudiant</p>
+            </article>
+            <article>
+                <!-- Pour chaque experience -->
+                <h3>La Saline</h3>
+                <p>Septembre 2021 - Septembre 2022</p>
+                <p>Job étudiant</p>
+            </article>
+            <article>
+                <!-- Pour chaque experience -->
+                <h3>GSK</h3>
+                <p>Juin 2021 - Août 2021</p>
+                <p>Job étudiant</p>
+            </article>
+        </div>
+
 
     </section>
 
@@ -215,7 +251,7 @@
 <script src="./lib/Js/vanilla-tilt.js"></script>
 <script>
     document.getElementById('dowloadPDF').addEventListener('click',function (){ //fonctionalité pour telecharger le cv
-        window.alert("T'as intéret a m'embaucher FDP")
+        window.alert("Bien vu BG, tu as téléchargé mon CV !")
         const cv = "./src/cv/CV_ClementHugo_BLOC2_INFORMATIQUE.pdf";
         window.open(cv,'_blank');
     });
