@@ -1,5 +1,6 @@
 1) telecharger cv // ok
-2) Glassmorphism
-3) scroll
-4) mode night si dieu veut -> https://darkmodejs.learn.uno/ //fini reste juste a foutre les images dedans 
-5) animation des barres de progressions //https://web-eau.net/blog/15-animations-css-vraiment-bluffantes
+2) Glassmorphism //ok
+3) scroll 
+4) mode night si dieu veut -> https://darkmodejs.learn.uno/ //fini reste juste a foutre les images dedans ok
+5) animation des barres de progressions //https://web-eau.net/blog/15-animations-css-vraiment-bluffantes //ok
+6) anim circle progress : https://codepen.io/bumuoi/pen/yLvevQz
