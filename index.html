@@ -4,14 +4,15 @@
 <head>
     <meta name="viewport" charset="UTF-8"  content="width=device-width, initial-scale=1.0">
 
-
     <title>CV Clement Hugo</title>
 
     <link rel="stylesheet" href="./lib/Css/styleFooter.css"> <!-- Style pour le footer -->
     <link rel="stylesheet" href="./lib/Css/styleHeader.css"> <!-- Style pour le header -->
     <link rel="stylesheet" href="./lib/Css/styleSection.css"> <!-- Style pour le coprs de la page -->
     <link rel="stylesheet" href="./lib/Css/styleBody.css"> <!-- Style pour le body de la page -->
+
     <meta name="author" content="Clement Hugo">
+
 </head>
 
 <body>
@@ -147,12 +148,10 @@
         <section id="langue">
             <!-- Section pour les langues -->
             <h3>Langues</h3>
-            <div>
-                <ul>
-                    <li>FRANCAIS</li>
-                    <li>ANGLAIS</li>
-                </ul>
-            </div>
+            <svg id="svg">
+                <circle class="bg" cx="57" cy="57" r="52" />
+                <circle class="meter-1" cx="57" cy="57" r="52" />
+            </svg>
         </section>
     </section>
 
@@ -217,12 +216,14 @@
         </div>
     </section>
 
-    <section>
-        <h2>Projets/Distinctions</h2>
+    <section id="sectionDistinction">
+        <h2>Distinctions</h2>
         <div>
-
+            <img class="petite" src="./src/img/MOBISAFE.JPG" alt="">
+            <div class="grande"></div>
         </div>
     </section>
+
 
     <section id="loisirs">
         <h2>LOISIRS</h2>
@@ -256,9 +257,10 @@
         &copy; 2024 CLEMENT HUGO. Tous droits réservés.
     </footer>
 </main>
-
-<script src="./lib/Js/#"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="./lib/Js/vanilla-tilt.js"></script>
+<script src="./lib/Js/lightbox.js"></script>
+<script src="./lib/Js/darkMode.js"></script>
 <script>
     document.getElementById('dowloadPDF').addEventListener('click',function (){ //fonctionalité pour telecharger le cv
         window.alert("Bien vu BG, tu as téléchargé mon CV !")
@@ -273,8 +275,6 @@
         "max-glare": 1,
     });
 </script>
-
-<script src="./lib/Js/darkMode.js"></script>
 </body>
 </html>
 

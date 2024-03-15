@@ -352,8 +352,6 @@
     }
 }
 
-
-
 #competenceSpecialise h3{
     margin-top: 0;
     text-align: center;
@@ -366,15 +364,40 @@
     text-align: center;
 }
 
-#langue div ul{
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-evenly;
-    align-items: center;
+#svg {
+    width: 114px;
+    height: 114px;
+    margin: 1em;
 }
 
-#lnage div ul li{
-    padding: 25px;
+.bg {
+    fill: none;
+    stroke-width: 10px;
+    stroke: #1A2C34;
+}
+
+[class^="meter-"] {
+    fill: none;
+    stroke-width: 10px;
+    stroke-linecap: round;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+}
+
+.meter-1 {
+    stroke-dasharray: 380;
+    stroke-dashoffset: 50;
+    stroke: aqua;
+    animation: progress-French 3s ease-out;
+}
+
+@keyframes progress-French {
+    from {
+        stroke-dashoffset: 380;
+    }
+    to {
+        stroke-dashoffset: 50;
+    }
 }
 
 #conteneurloisirs{
@@ -424,6 +447,44 @@
     z-index: 1;
 }
 
+#sectionDistinction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#sectionDistinction h2{
+    text-align: center;
+    text-decoration: underline;}
+
+.petite{
+    width: 100%;
+    height: 12vh;
+}
+
+.petite, .grande{cursor : pointer;}
+
+.grande{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.grande img{
+    width: 60%;
+    border: 4px white solid;
+    border-radius: 5px;
+
+}
+
 #loisirs h2{
     text-align: center;
     text-decoration: underline;
@@ -463,7 +524,7 @@
 #conteneurenfanteducation{
     display: flex;
     flex-direction: column;
-    max-height: 150px;
+    max-height: 300px;
     overflow-y: auto;
     border: 5px solid black;
     padding: 10px;
@@ -499,7 +560,7 @@ article{
 #conteneurenfantexprience{
     display: flex;
     flex-direction: column;
-    max-height: 150px;
+    max-height: 300px;
     overflow-y: auto;
     border: 5px solid black;
     padding: 10px;
