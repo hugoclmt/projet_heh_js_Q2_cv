@@ -26,7 +26,11 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    /*Reduis l'espace entre les 2 elements de cette div*/
+}
 
+#nomPrenom h1{
+    margin: 0;
 }
 
 #coordonee{
@@ -38,6 +42,7 @@ header{
 
 .liens{
     text-decoration: none;
+    margin-left: 6px;
 }
 
 

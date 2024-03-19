@@ -5,23 +5,16 @@
     align-items: center;
 }
 
-#profile h2 {
-    margin-top: 5px;
-    text-decoration: underline;
-}
+
 #profile p {
     margin-top: 0;
     text-align: center;
+    max-width: 90%;
 }
 
 #competence{
     display: flex;
     flex-direction: column;
-}
-#competence h2{
-    text-align: center;
-    margin-top: 0;
-    text-decoration: underline;
 }
 
 #containeurcompetence{
@@ -364,40 +357,69 @@
     text-align: center;
 }
 
-#svg {
-    width: 114px;
-    height: 114px;
-    margin: 1em;
+#containeur{
+    gap: 40px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-.bg {
-    fill: none;
-    stroke-width: 10px;
-    stroke: #1A2C34;
+.progress{
+    position: relative;
+    width: 150px;
+    height: 150px;
+
+    border-radius: 50%;
+    color: black;
+    background-color: yellow linear-gradient(to right, transparent, 50%,var(--clr) 0);
 }
 
-[class^="meter-"] {
-    fill: none;
-    stroke-width: 10px;
-    stroke-linecap: round;
-    transform: rotate(-90deg);
-    transform-origin: 50% 50%;
+.progress h3{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5em;
+    z-index: 1;
+    font-weight: 500;
 }
 
-.meter-1 {
-    stroke-dasharray: 380;
-    stroke-dashoffset: 50;
-    stroke: aqua;
-    animation: progress-French 3s ease-out;
+.progress span{
+    font-size: 0.65em;
+    font-weight: 400;
 }
 
-@keyframes progress-French {
-    from {
-        stroke-dashoffset: 380;
-    }
-    to {
-        stroke-dashoffset: 50;
-    }
+.progress h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    z-index: 1;
+    font-weight: 500;
+}
+
+.progress::before
+{
+    content: '';
+    display: block;
+    height: 100%;
+    margin-left: 50%;
+    transform-origin: left;
+    border-radius: 0 100% 100% 0/50%;
+    background: var(--clr);
+    transform: rotate(calc(((var(--i) - 0 ) * 0.01turn)));
+
+}
+
+.progress::after{
+    content: '';
+    position: absolute;
+    inset: 10px;
+    border-radius: 50%;
+    background: #222;
 }
 
 #conteneurloisirs{
@@ -408,7 +430,6 @@
     z-index: 1;
     position: relative;
 }
-
 #conteneurloisirs .card_glass{
     position: relative;
     left: 0;
@@ -454,9 +475,7 @@
     flex-direction: column;
 }
 
-#sectionDistinction h2{
-    text-align: center;
-    text-decoration: underline;}
+
 
 .petite{
     width: 100%;
@@ -485,10 +504,7 @@
 
 }
 
-#loisirs h2{
-    text-align: center;
-    text-decoration: underline;
-}
+
 
 .imgloisir{
     width: 100%;
@@ -513,6 +529,7 @@
 #dowloadPDF:hover{
     background-color: black;
     color: white;
+    transition: 1s ease-in-out;
 }
 
 #conteneureducation{
@@ -538,11 +555,7 @@ article{
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-#conteneureducation h2{
-    text-align: center;
-    margin-top: 0;
-    text-decoration: underline;
-}
+
 
 #conteneurexperience{
     display: flex;
@@ -551,17 +564,15 @@ article{
 }
 
 
-#conteneurexperience h2{
-    text-align: center;
-    margin-top: 30px;
-    text-decoration: underline;
-}
+
 
 #conteneurenfantexprience{
     display: flex;
-    flex-direction: column;
-    max-height: 300px;
-    overflow-y: auto;
-    border: 5px solid black;
-    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.eftexp{
+    margin: 20px;
 }

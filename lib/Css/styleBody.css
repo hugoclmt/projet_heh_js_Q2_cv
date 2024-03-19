@@ -9,7 +9,7 @@ body{
 }
 
 .expand {
-    transform: scale(150);
+    transform: scale(500);
 }
 #blender {
     width: 2rem;
@@ -39,11 +39,22 @@ body{
     align-items: center;
 }
 
-#modeicon{
-    mix-blend-mode: normal;
-    isolation: isolate;
+
+h2{
+    margin-top: 40px;
+    text-align: center;
 }
 
 .toggleclass2 {
     z-index: 1;
+}
+
+.apparition{
+    transition: 1s ease-in-out;
+
+}
+
+.invisible{
+    opacity: 0;
+    transition: 0s;
 }

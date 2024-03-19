@@ -1,7 +1,18 @@
 1) telecharger cv // ok
 2) Glassmorphism //ok
-3) scroll 
-4) mode night //fini reste juste a foutre les images dedans ok
+3) scroll //ok
+4) mode night //ok
 5) animation des barres de progressions //ok
-6) anim circle progress : https://codepen.io/bumuoi/pen/yLvevQz
+6) anim circle progress : https://codepen.io/bumuoi/pen/yLvevQz|| https://www.youtube.com/watch?v=sDpfRFUcxY4
 7)effet ligtbox sur les distinctions //ok
+
+//ce soir ->Commencer Lazy load
+finir les barres circle de progression
+a la fin rajouter des barres de progress pe
+
+
+-----------------------------------------------
+Rajouter les alts au image 
+verif l'orthographe
+verif semantique que j'utilise mskn
+peut etre ajouter d'autre anim au scroll
