@@ -139,11 +139,28 @@
             </div>
         </section>
         <section id="langue">
-            <h2>Langues</h2>
-            <div id="containeur">
-                <div class="progress" style="--i:150;--clr:#fb297b">
-                    <h3>100<span>%</span></h3>
-                    <h4>Français</h4>
+            <h3>Langues</h3>
+            <div id="containerparentcircle">
+                <div class="containerenfantcircle">
+                    <div class="circular-progress" data-inner-circle-color="lightgrey" data-percentage="100" data-progress-color="crimson" data-bg-color="black">
+                        <div class="inner-circle"></div>
+                        <p class="percentage">0%</p>
+                    </div>
+                    <p>Français</p>
+                </div>
+                <div class="containerenfantcircle">
+                    <div class="circular-progress" data-inner-circle-color="lightgrey" data-percentage="65" data-progress-color="crimson" data-bg-color="black">
+                        <div class="inner-circle"></div>
+                        <p class="percentage">0%</p>
+                    </div>
+                    <p>Anglais</p>
+                </div>
+                <div class="containerenfantcircle">
+                    <div class="circular-progress" data-inner-circle-color="lightgrey" data-percentage="25" data-progress-color="crimson" data-bg-color="black">
+                        <div class="inner-circle"></div>
+                        <p class="percentage">0%</p>
+                    </div>
+                    <p>Néerlandais</p>
                 </div>
             </div>
         </section>
@@ -257,6 +274,7 @@
 <script src="./lib/Js/darkMode.js"></script>
 <script src="./lib/Js/dowloadPdf.js"></script>
 <script src="./lib/Js/lazyLoad.js"></script>
+<script src="./lib/Js/circle.js"></script>
 <script>
     VanillaTilt.init(document.querySelectorAll(".card_glass"), {
         max: 25,
@@ -267,10 +285,3 @@
 </script>
 </body>
 </html>
-
-<!--
- 1) Créer un CV One page
- 2) Respecter les normes W3C et sémantiques des elements
- 3)Responsive de 320 px à 2560px
- 4)2400px de hauteur max
- -->

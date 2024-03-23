@@ -357,71 +357,6 @@
     text-align: center;
 }
 
-#containeur{
-    gap: 40px;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.progress{
-    position: relative;
-    width: 150px;
-    height: 150px;
-
-    border-radius: 50%;
-    color: black;
-    background-color: yellow linear-gradient(to right, transparent, 50%,var(--clr) 0);
-}
-
-.progress h3{
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2.5em;
-    z-index: 1;
-    font-weight: 500;
-}
-
-.progress span{
-    font-size: 0.65em;
-    font-weight: 400;
-}
-
-.progress h4 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%);
-    text-transform: uppercase;
-    z-index: 1;
-    font-weight: 500;
-}
-
-.progress::before
-{
-    content: '';
-    display: block;
-    height: 100%;
-    margin-left: 50%;
-    transform-origin: left;
-    border-radius: 0 100% 100% 0/50%;
-    background: var(--clr);
-    transform: rotate(calc(((var(--i) - 0 ) * 0.01turn)));
-
-}
-
-.progress::after{
-    content: '';
-    position: absolute;
-    inset: 10px;
-    border-radius: 50%;
-    background: #222;
-}
-
 #conteneurloisirs{
     isolation: isolate;
     display: flex;
@@ -576,4 +511,47 @@ article{
 
 .eftexp{
     margin: 20px;
+}
+
+#containerparentcircle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.containerenfantcircle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.containerenfantcircle p{
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.circular-progress {
+    width: 13vw;
+    height: 13vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-circle {
+    position: absolute;
+    width: 12vw;
+    height: 12vh;
+    border-radius: 50%;
+    background-color: lightgrey;
+}
+
+.percentage {
+    position: relative;
+    font-size: 2rem;
+    color: rgb(0, 0, 0, 0.8);
 }
