@@ -5,7 +5,6 @@ header{
     width: 100%;
     border-bottom: 3px solid black;
 }
-
 #imgprofil{
     display: flex;
     align-items: center;
@@ -13,51 +12,41 @@ header{
     height: 200px;
     width: 200px;
 }
-
 #imgprofil img{
     height: 75%;
     width: 75%;
     border-radius: 50%;
-    isolation: isolate; /*Pour le mode nuit*/
+    isolation: isolate;
 }
-
 #nomPrenom{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /*Reduis l'espace entre les 2 elements de cette div*/
 }
-
 #nomPrenom h1{
     margin: 0;
 }
-
 #coordonee{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
 }
-
 .liens{
     text-decoration: none;
     margin: 5px;
     font-size: 15px;
     cursor: pointer;
 }
-
 .liens:hover{
     color: #007bff;
     transition: 1s ease;
 }
-
-
 #coordonee p{
     font-size: 15px;
     margin: 5px;
 }
-
 .ensembleimgcoordonee{
     display: flex;
     align-items: center;

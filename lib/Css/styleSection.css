@@ -4,26 +4,21 @@
     justify-content: center;
     align-items: center;
 }
-
-
 #profile p {
     margin-top: 0;
     text-align: center;
     max-width: 90%;
 }
-
 #competence{
     display: flex;
     flex-direction: column;
 }
-
 #containeurcompetence{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 }
-
 .skillbar{
     width: 35%;
     height: 20px;
@@ -31,7 +26,6 @@
     background-color: gray;
     margin: 10px auto;
 }
-
 .skill-area{
     z-index: 1;
     float: left;
@@ -41,7 +35,6 @@
     color: #fff;
     font-size: 1.2em;
 }
-
 .percenttext{
     z-index: 3;
     position: relative;
@@ -51,300 +44,39 @@
     text-shadow: none;
     font-size: 1em;
 }
-
-#skill-HTML{
-    width: 90%;
-    animation: Animate-HTML 4s;
-    -webkit-animation: Animate-HTML 4s;
-    -moz-animation: Animate-HTML 4s;
+.skill{
+    width: var(--i);
+    animation: Animate-skill 4s;
+    -webkit-animation: Animate-skill 4s;
+    -moz-animation: Animate-skill 4s;
     height: 20px;
     position: absolute;
     background-color: #ea8564;
 }
-
-@keyframes Animate-HTML {
+@keyframes Animate-skill {
     from{
         width: 10px;
     }
     to{
-        width: 90%;
+        width: var(--i);
     }
 }
-@-webkit-keyframes Animate-HTML {
+@-webkit-keyframes Animate-skill {
     from{
         width: 10px;
     }
     to{
-        width: 90%;
+        width: var(--i);
     }
 }
-
-@-moz-keyframes Animate-HTML {
+@-moz-keyframes Animate-skill {
     from{
         width: 10px;
     }
     to{
-        width: 90%;
+        width: var(--i)
     }
 }
-
-#skill-CSS{
-    width: 75%;
-    animation: Animate-CSS 4s;
-    -webkit-animation: Animate-CSS 4s;
-    -moz-animation: Animate-CSS 4s;
-    height: 20px;
-    position: absolute;
-    background-color: #ea8564;
-}
-
-@keyframes Animate-CSS {
-    from{
-        width: 10px;
-    }
-    to{
-        width: 75%;
-    }
-}
-@-webkit-keyframes Animate-CSS {
-    from{
-        width: 10px;
-    }
-    to{
-        width: 75%;
-    }
-}
-
-@-moz-keyframes Animate-CSS {
-    from{
-        width: 10px;
-    }
-    to{
-        width: 75%;
-    }
-}
-
-#skill-JS{
-    width: 65%;
-    animation: Animate-JS 4s;
-    -webkit-animation: Animate-JS 4s;
-    -moz-animation: Animate-JS 4s;
-    height: 20px;
-    position: absolute;
-    background-color: #ea8564;
-}
-
-@keyframes Animate-JS {
-    from{
-        width: 10px;
-    }
-    to{
-        width: 65%;
-    }
-}
-@-webkit-keyframes Animate-JS {
-    from{
-        width: 10px;
-    }
-    to{
-        width: 65%;
-    }
-}
-
-@-moz-keyframes Animate-JS {
-    from{
-        width: 10px;
-    }
-    to{
-        width: 60%;
-    }
-}
-
-#skill-PHP{
-    width: 90%;
-    animation: Animate-PHP 4s;
-    -webkit-animation: Animate-PHP 4s;
-    -moz-animation: Animate-PHP 4s;
-    height: 20px;
-    position: absolute;
-    background-color: #ea8564;
-}
-
-@keyframes Animate-PHP {
-    from{
-        width: 10px;
-    }
-    to{
-        width: 90%;
-    }
-}
-
-@-webkit-keyframes Animate-PHP {
-    from{
-        width: 10px;
-    }
-    to{
-        width: 90%;
-    }
-}
-
-@-moz-keyframes Animate-PHP {
-    from{
-        width: 10px;
-    }
-    to{
-        width: 90%;
-    }
-}
-
-#skill-SQL{
-    width: 80%;
-    animation: Animate-SQL 4s;
-    -webkit-animation: Animate-SQL 4s;
-    -moz-animation: Animate-SQL 4s;
-    height: 20px;
-    position: absolute;
-    background-color: #ea8564;
-}
-
-@keyframes Animate-SQL {
-    from{
-        width: 10px;
-    }
-    to{
-        width: 80%;
-    }
-}
-
-@-webkit-keyframes Animate-SQL {
-    from{
-        width: 10px;
-    }
-    to{
-        width: 80%;
-    }
-}
-
-@-moz-keyframes Animate-SQL {
-    from{
-        width: 10px;
-    }
-    to{
-        width: 80%;
-    }
-}
-
-#skill-JAVA{
-    width: 70%;
-    animation: Animate-JAVA 4s;
-    -webkit-animation: Animate-JAVA 4s;
-    -moz-animation: Animate-JAVA 4s;
-    height: 20px;
-    position: absolute;
-    background-color: #ea8564;
-}
-
-@keyframes Animate-JAVA {
-    from{
-        width: 10px;
-    }
-    to{
-        width: 70%;
-    }
-}
-
-@-webkit-keyframes Animate-JAVA {
-    from{
-        width: 10px;
-    }
-    to{
-        width: 70%;
-    }
-}
-
-@-moz-keyframes Animate-JAVA {
-    from{
-        width: 10px;
-    }
-    to{
-        width: 70%;
-    }
-}
-
-#skill-PYTHON{
-    width: 90%;
-    animation: Animate-PYTHON 4s;
-    -webkit-animation: Animate-PYTHON 4s;
-    -moz-animation: Animate-PYTHON 4s;
-    height: 20px;
-    position: absolute;
-    background-color: #ea8564;
-}
-
-@keyframes Animate-PYTHON {
-    from{
-        width: 10px;
-    }
-    to{
-        width: 90%;
-    }
-}
-
-@-webkit-keyframes Animate-PYTHON {
-    from{
-        width: 10px;
-    }
-    to{
-        width: 90%;
-    }
-}
-
-@-moz-keyframes Animate-PYTHON {
-    from{
-        width: 10px;
-    }
-    to{
-        width: 90%;
-    }
-}
-
-#skill-C{
-    width: 75%;
-    animation: Animate-C 4s;
-    -webkit-animation: Animate-C 4s;
-    -moz-animation: Animate-C 4s;
-    height: 20px;
-    position: absolute;
-    background-color: #ea8564;
-}
-
-@keyframes Animate-C {
-    from{
-        width: 10px;
-    }
-    to{
-        width: 75%;
-    }
-}
-
-@-webkit-keyframes Animate-C {
-    from{
-        width: 10px;
-    }
-    to{
-        width: 75%;
-    }
-}
-
-@-moz-keyframes Animate-C {
-    from{
-        width: 10px;
-    }
-    to{
-        width: 75%;
-    }
-}
-
 #competenceSpecialise h3{
     margin-top: 0;
     text-align: center;
@@ -410,12 +142,9 @@
     flex-direction: column;
 }
 
-
-
 .petite{
     width: 95%;
     height: 12vh;
-
 }
 
 .petite, .grande{cursor : pointer;}
@@ -440,13 +169,10 @@
 
 }
 
-
-
 .imgloisir{
     width: 100%;
     height: 100%;
     object-fit: cover;
-
 }
 
 #dowload{
@@ -483,7 +209,7 @@
     padding: 10px;
 }
 
-article{
+.article{
     margin-bottom: 20px;
     padding: 10px;
     border: 1px solid black;
@@ -491,26 +217,24 @@ article{
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-
-
 #conteneurexperience{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-
-
-
 #conteneurenfantexprience{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 .eftexp{
     margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 #containerparentcircle{
