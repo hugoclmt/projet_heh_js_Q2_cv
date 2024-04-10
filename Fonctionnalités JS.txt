@@ -1,14 +1,8 @@
-1) telecharger cv // ok
-2) Glassmorphism //ok
-3) scroll //ok
-4) mode night //ok
-5) animation des barres de progressions //ok
-6) anim circle progress : https://nosmoking.developpez.com/demos/css/gauge_circulaire.html
-7)effet ligtbox sur les distinctions //ok
+1) telecharger cv + print cv
+2) Glassmorphism sur les images de loisirs
+3) LazyLoad
+4) mode sombre  
+5) animation des cercles de progressions des langues 
 
 
------------------------------------------------
-
-verif l'orthographe
-verif semantique que j'utilise mskn
-peut etre ajouter d'autre anim au scroll (ajouter dans education)
+       conteneurexp et educ

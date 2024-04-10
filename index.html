@@ -4,35 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>CV Clement Hugo</title>
-
-    <link rel="stylesheet" href="./lib/Css/styleFooter.css"> <!-- Style pour le footer -->
-    <link rel="stylesheet" href="./lib/Css/styleHeader.css"> <!-- Style pour le header -->
-    <link rel="stylesheet" href="./lib/Css/styleSection.css"> <!-- Style pour le coprs de la page -->
-    <link rel="stylesheet" href="./lib/Css/styleBody.css"> <!-- Style pour le body de la page -->
-
+    <link rel="stylesheet" href="lib/Css/style.css">
     <meta name="author" content="Clement Hugo">
-
 </head>
 
 <body>
-
 <main>
     <div id="toggle" class="toggleclass1 toggleclass2">
     </div>
     <div id="blender"></div>
     <header class="apparition">
-        <!-- Image/Infos perso  -->
         <div id="imgprofil">
             <img alt="photoprofil" src="./src/img/profil.jpg">
         </div>
-
         <div id="nomPrenom">
             <h1>HUGO</h1>
             <h1>CLEMENT</h1>
         </div>
-
         <div id="coordonee">
             <div class="ensembleimgcoordonee">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16">
@@ -76,16 +65,12 @@
 
     <section class="apparition" id="profile">
         <h2>PROFIL</h2>
-
         <p>Actuellement étudiant en BLOC 2 en informatique à la HEH, passionné par le développement logiciel et Web. Ma formation académique m'a permis d'acquérir une base solide en langages de programmation tels que Java, C, et Python, ainsi qu'une compréhension approfondie des principes de développement web et de gestion de bases de données. J'ai développé une capacité à apprendre rapidement de nouvelles technologies, démontrée par mes projets personnels et universitaires. Je cherche à appliquer mes compétences dans un environnement professionnel dynamique pour contribuer à des projets innovants tout en continuant à perfectionner mes compétences techniques.</p>
-        <!-- Brève déscription du profile -->
     </section>
 
     <section class="apparition" id="competence">
-        <!-- Section pour les compétances + langues connues -->
         <h2>COMPÉTENCES</h2>
         <section id="competenceSpecialise">
-            <!-- Section pour les compétences -->
             <h3>Compétences spécialisées</h3>
             <div id="containeurcompetence">
                 <div class="skillbar">
@@ -166,64 +151,62 @@
         </section>
     </section>
 
-    <section class="apparition" id="conteneureducation">
-        <h2>ÉDUCATION</h2>
-        <div id="conteneurenfanteducation">
-            <div class="article">
-                <!-- Pour chaque formation -->
-                <h3>Bachelier en Informatique & systèmes orientation réseaux & télécommunications</h3>
-                <p>Haute École en Hainaut, Mons</p>
-                <p>Septembre 2022 - Actuel</p>
+    <section class="apparition" id="conteneureducationEtExperience">
+        <h2>FORMATION</h2>
+        <div class="formation-container">
+            <div class="formation-block">
+                <div class="formation-institution">Bachelier en Informatique & systèmes</div>
+                <div class="formation-details">Haute École en Hainaut, Mons</div>
+                <div class="formation-dates">Septembre 2022 - Actuel</div>
             </div>
-            <div class="article">
-                <!-- Pour chaque formation -->
-                <h3>Bachelier en Informatique de Gestion</h3>
-                <p>Condorcet, Mons</p>
-                <p>Septembre 2020 - Juin 2022</p>
+            <div class="formation-block">
+                <div class="formation-institution">Bachelier en Informatique de Gestion</div>
+                <div class="formation-details">Condorcet, Mons</div>
+                <div class="formation-dates">Septembre 2020 - Juin 2022</div>
+                <span class="change">Changement d'école</span>
             </div>
-            <div class="article">
-                <!-- Pour chaque formation -->
-                <h3>Bachelier en Kinésithérapie</h3>
-                <p>Condorcet, Tournai</p>
-                <p>Septembre 2019 - Mars 2020</p>
+            <div class="formation-block">
+                <div class="formation-institution">Bachelier en Kinésithérapie</div>
+                <div class="formation-details">Condorcet, Tournai</div>
+                <div class="formation-dates">Septembre 2019 - Mars 2020</div>
+                <span class="change">Changement de filière</span>
             </div>
-            <div class="article">
-                <!-- Pour chaque formation -->
-                <h3>C.E.S.S</h3>
-                <p>Athénée Royal, Dour</p>
-                <p>Septembre 2012 - Juin 2019</p>
+            <div class="formation-block">
+                <div class="formation-institution">C.E.S.S</div>
+                <div class="formation-details">Athénée Royal, Dour</div>
+                <div class="formation-dates">Septembre 2012 - Juin 2019</div>
             </div>
         </div>
-
     </section>
-<!-- NE PAS UTILISER ARTICLE -->
-    <section class="apparition" id="conteneurexperience">
-        <h2>EXPÉRIENCE PROFESSIONELLE</h2>
+
+    <section class="apparition" id="conteneurexperienceEtEducation">
+        <h2>EXPÉRIENCE PROFESSIONNELLE</h2>
         <div id="conteneurenfantexprience">
-            <article class="eftexp">
+            <div class="eftexp">
                 <!-- Pour chaque experience -->
                 <h3>EuroConditionnement</h3>
                 <p>Juin 2023 - juillet 2023</p>
-                <p>Job étudiant</p>
-            </article>
-            <article class="eftexp">
+                <p><em>Job étudiant</em></p>
+            </div>
+            <div class="eftexp">
                 <!-- Pour chaque experience -->
                 <h3>La Saline</h3>
                 <p>Septembre 2021 - Septembre 2022</p>
-                <p>Job étudiant</p>
-            </article>
-            <article class="eftexp">
+                <p><em>Job étudiant</em></p>
+            </div>
+            <div class="eftexp">
                 <!-- Pour chaque experience -->
                 <h3>GSK</h3>
                 <p>Juin 2021 - Juillet 2021</p>
                 <p>Juillet 2020 - Août 2020</p>
-                <p>Job étudiant</p>
-            </article>
-            <article class="eftexp">
+                <p><em>Job étudiant</em></p>
+            </div>
+            <div class="eftexp">
                 <h3>Commune des Honnelles</h3>
                 <p>Juin 2020 - Juillet 2020</p>
                 <p>Juillet 2019 - Août 2019</p>
-            </article>
+                <p><em>Job étudiant</em></p>
+            </div>
         </div>
     </section>
 
@@ -234,7 +217,6 @@
             <div class="grande"></div>
         </div>
     </section>
-
 
     <section class="apparition" id="loisirs">
         <h2>LOISIRS</h2>
@@ -282,6 +264,19 @@
         glare: true,
         "max-glare": 1,
     });
+
+    function getFullHeight() {
+        const body = document.body;
+        const html = document.documentElement;
+
+        return Math.max(
+            body.scrollHeight, body.offsetHeight,
+            html.clientHeight, html.scrollHeight, html.offsetHeight
+        );
+    }
+
+    // Afficher la hauteur totale dans la console
+    console.log(getFullHeight() + "px");
 </script>
 </body>
 </html>
